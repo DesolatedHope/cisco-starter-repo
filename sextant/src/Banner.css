@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+.Banner {
+  text-align: center;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Banner-header {
+  font-family: 'Cinzel', serif;
+  background-color: #7681B3;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(50px + 2vmin);
+  color: #34252F;
+}
+

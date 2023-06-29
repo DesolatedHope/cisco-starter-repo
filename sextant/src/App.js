@@ -1,14 +1,11 @@
 import Cards from './Cards.js';
 import './App.css';
+import Banner from './Banner.js';
 
 function App() {
   return (
     <div>
-      <div className="App">
-        <header className="App-header">
-          Sextant
-        </header>
-      </div>
+      <Banner first = "Sextant"/>
       <Cards />
     </div>
   );
