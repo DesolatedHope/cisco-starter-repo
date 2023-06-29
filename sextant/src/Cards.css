@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+.Cards {
+    margin-bottom: 0px;
+    background-color: #a4b494;
+    border-left: 10px solid #519872;
+    height: 350px;
+    width: 30%;
+    margin-left: 20px;
+    box-shadow: 14px 10px 14px 10px rgba(0, 0, 0, 0.2), 0 20px 34px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .Cards-header,
+  .Cards-footer {
+    border-color: #ebeef4;
+    color: #34252F;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .Cards-title {
+    padding: 20px 0 15px 0;
+    font-size: 20px;
+    font-weight: 100;
+    background-color:#BEC5AD;
+    color: #012970;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .Cards-title span {
+    color: #BEC5AD;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .Cards-body {
+    padding: 0 20px 20px 20px;
+  }
+  
+  .Cards-img-overlay {
+    background-color: #b3ff00;
+  }
