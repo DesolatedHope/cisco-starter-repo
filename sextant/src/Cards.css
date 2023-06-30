@@ -6,6 +6,9 @@
     height: 350px;
     width: 30%;
     margin-left: 20px;
+    display:inline-flex;
+  }
+  .Cards:hover{
     box-shadow: 14px 10px 14px 10px rgba(0, 0, 0, 0.2), 0 20px 34px 0 rgba(0, 0, 0, 0.19);
   }
   

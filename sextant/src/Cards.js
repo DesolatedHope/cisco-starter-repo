@@ -1,8 +1,9 @@
 import './Cards.css';
-const Cards = () => {
+const Cards = (props) => {
+    const res = props.text;
     return ( 
         <div className = "Cards">
-            <h1 className = "Cards-header">Component</h1>
+            <h1 className = "Cards-header">{ res }</h1>
         </div>
      );
 }

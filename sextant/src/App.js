@@ -1,12 +1,14 @@
 import Cards from './Cards.js';
 import './App.css';
 import Banner from './Banner.js';
+import IPGrab from './IPGrab.js';
 
 function App() {
-  return (
+    return (
     <div>
-      <Banner first = "Sextant"/>
-      <Cards />
+      <Banner text = "Sextant"/>
+      <IPGrab text = "IPv4"/>
+      <IPGrab text = "IPv6" />
     </div>
   );
 }

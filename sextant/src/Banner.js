@@ -1,8 +1,9 @@
 import './Banner.css';
 
-const Banner = () => {
+const Banner = (props) => {
+    const name = props.text;
     return ( <div className="Banner">
-        <header className="Banner-header">Sextant</header>
+        <header className="Banner-header">{ name }</header>
     </div> 
     );
 }
