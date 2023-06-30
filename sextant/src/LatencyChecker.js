@@ -9,7 +9,7 @@ function LatencyCheck(){
         setTime(Date.now() - event.data);
     }
     return ( 
-        <Cards text = { "Latency: " + time }></Cards>
+        <Cards text = { "Latency: " + time + " ms"}></Cards>
      );
 }
  
